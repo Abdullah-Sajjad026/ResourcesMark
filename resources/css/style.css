@@ -183,17 +183,22 @@ main article {
     border: 1px solid rgba(0, 0, 0, .05);
     background: #ffffff;
     background: #ffffff;
-    box-shadow: 14px 14px 80px #ededed,
-        -14px -14px 80px #ffffff;
+    box-shadow: 14px 14px 80px #ededed,        -14px -14px 80px #ffffff;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     margin: 0 15px 35px;
-    width: 30%; /*340px*/
+    width: 30%;
+    /*340px*/
+    transition: all .2s;
 }
-
+.card:hover{
+    box-shadow: 0 10px 40px -10px rgba(0,0,0,.18);
+    background-color: #f8f8ff;
+    border: 1px solid rgba(0, 0, 0, .10);
+}
 .card .icon-box {
     width: 4rem;
 }
