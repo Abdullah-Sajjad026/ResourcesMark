@@ -193,6 +193,9 @@ main article {
     width: 30%;
     /*340px*/
     transition: all .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card:hover{
     box-shadow: 0 10px 40px -10px rgba(0,0,0,.18);
@@ -201,6 +204,7 @@ main article {
 }
 .card .icon-box {
     width: 4rem;
+    height: 4rem;
 }
 
 .card h3 {
