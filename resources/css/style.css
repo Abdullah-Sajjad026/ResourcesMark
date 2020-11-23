@@ -10,12 +10,13 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    ;
+    scroll-behavior: smooth;
 }
 
 section {
     padding: 3.79rem 0;
 }
+
 section.group {
     padding: 1rem 0 3.79rem 0;
 }
@@ -28,26 +29,6 @@ section.group {
 img {
     max-width: 100%;
 }
-
-/* 
-.nav-info {
-    display: flex;
-    align-items: center;
-}
-
-.nav-img-box {
-    margin-right: 0.556rem;
-}
-
-.nav-img-box img {
-    height: 5.0rem;
-    width: 4.778rem;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-} */
 
 /* ----- Nav ---- */
 .nav-header {
@@ -63,6 +44,42 @@ img {
 
 .logo {
     width: 11.111rem;
+}
+
+.top-btn {
+    position: fixed;
+    bottom: 1.1111rem;
+    right: 0.7222rem;
+    width: 2.31rem;
+    height: 2.31rem;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-btn ion-icon {
+    color: #1E15FF;
+    font-size: 1.467rem;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.top-btn:hover {
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, .1);
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
 }
 
 /* ---- main ---- */
@@ -93,6 +110,16 @@ section.banner {
     color: #dcdde1;
     font-size: 1.3rem;
     font-weight: 300;
+}
+
+.banner form {
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 /* --- group-nav -------- */
@@ -144,6 +171,7 @@ nav.group-nav ul li .group-nav-link ion-icon {
     margin-right: 0.5556rem;
     color: #1E15FF;
 }
+
 nav.group-nav ul li .group-nav-link:hover ion-icon {
     color: white;
 }
@@ -152,9 +180,11 @@ nav.group-nav ul li .group-nav-link:hover ion-icon {
 main article {
     margin-top: 1rem;
 }
+
 .group-header {
     margin-bottom: 2rem;
 }
+
 .group-header ion-icon {
     display: block;
     width: 100%;
@@ -171,6 +201,7 @@ main article {
     color: #090909;
     letter-spacing: 2px;
 }
+
 .group-cards {
     display: flex;
     flex-direction: row;
@@ -184,7 +215,7 @@ main article {
     border: 1px solid rgba(0, 0, 0, .05);
     background: #ffffff;
     background: #ffffff;
-    box-shadow: 14px 14px 80px #ededed,        -14px -14px 80px #ffffff;
+    box-shadow: 14px 14px 80px #ededed, -14px -14px 80px #ffffff;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -198,11 +229,13 @@ main article {
     flex-direction: column;
     justify-content: space-between;
 }
-.card:hover{
-    box-shadow: 0 10px 40px -10px rgba(0,0,0,.18);
+
+.card:hover {
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, .18);
     background-color: #f8f8ff;
     border: 1px solid rgba(0, 0, 0, .10);
 }
+
 .card .icon-box {
     width: 4rem;
     height: 4rem;
@@ -233,7 +266,7 @@ main article {
     font-size: 1.1rem;
     font-weight: 300;
     margin: 1.4rem 0 0 0;
-    padding:0.5rem;
+    padding: 0.5rem;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -272,50 +305,57 @@ main article {
 
 /* ------ Media Queries ----- */
 @media (max-width: 1200px) {
-    .container{
+    .container {
         padding: 0 2%;
     }
 }
+
 @media (max-width: 1157px) {
     :root {
         font-size: 17.5px;
     }
 }
+
 @media (max-width: 1000px) {
- :root {
-     font-size: 17px;
- }
+    :root {
+        font-size: 17px;
+    }
 }
+
 @media (max-width: 938px) {
     .card {
         width: 28%;
     }
 }
+
 @media (max-width: 830px) {
     :root {
         font-size: 16.5px;
     }
 }
+
 @media (max-width: 786px) {
     .card {
         width: 40%;
     }
 }
+
 @media (max-width: 600px) {
     :root {
         font-size: 16px;
     }
 }
+
 @media (max-width: 550px) {
     .card {
         width: 90%;
     }
 }
+
 @media (max-width: 500px) {
     .card {
         width: 96%;
     }
 }
-@media (max-width: 300px) {
 
-}
+@media (max-width: 300px) {}
