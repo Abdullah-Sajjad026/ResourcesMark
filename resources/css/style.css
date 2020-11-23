@@ -73,6 +73,7 @@ section.banner {
     background-size: cover;
     min-height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -91,7 +92,7 @@ section.banner {
 .banner .content h3 {
     color: #dcdde1;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* --- group-nav -------- */
@@ -216,15 +217,16 @@ main article {
 
 .card p {
     font-weight: 300;
-    line-height: 1.6667rem;
+    line-height: 1.59rem;
     color: #373737;
+    font-family: 'Inter', sans-serif;
 }
 
-.card .visit-btn {
+.visit-btn {
     background-image: linear-gradient(to right, #4568DC 0%, #B06AB3 51%, #4568DC 100%)
 }
 
-.card .visit-btn {
+.visit-btn {
     display: flex;
     justify-content: center;
     align-items: center;
