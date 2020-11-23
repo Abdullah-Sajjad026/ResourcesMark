@@ -123,6 +123,7 @@ section.banner {
     display: flex;
     align-items: center;
 }
+
 .banner form input {
     background-color: #f3f3f3;
     color: #38464d;
@@ -137,6 +138,11 @@ section.banner {
     border: 1px solid transparent;
     font-weight: 300;
     margin-right: 0.1667rem;
+}
+
+.banner form input:focus {
+    outline: none;
+    border: 1px solid  #4869DB;
 }
 
 .banner form button {
@@ -160,17 +166,20 @@ section.banner {
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
+
 .banner form button:hover {
-    background-color:  #1940cc;
+    background-color: #1940cc;
 }
+
 section.banner p {
     margin-top: 7px;
-    color:white;
+    color: white;
     font-size: 1.3rem;
     font-style: italic;
     font-weight: 300;
 
 }
+
 /* --- group-nav -------- */
 nav.group-nav {
     padding: 20px;
@@ -360,9 +369,11 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
-.footer--text{
+
+.footer--text {
     color: #3d3d3d;
 }
+
 .footer-link {
     color: #272727;
     transition: color .3s;
@@ -371,9 +382,11 @@ footer {
     -ms-transition: color .3s;
     -o-transition: color .3s;
 }
+
 .footer-link:hover {
     color: #1E15FF;
 }
+
 .footer--social-links ion-icon {
     color: #090909;
     font-size: 1.1667rem;
@@ -384,9 +397,11 @@ footer {
     -ms-transition: color .2s;
     -o-transition: color .2s;
 }
+
 .footer--social-links ion-icon:hover {
     color: #4568DC;
 }
+
 /* ------ Media Queries ----- */
 @media (max-width: 1200px) {
     .container {
@@ -426,10 +441,12 @@ footer {
         margin-right: 7px;
         margin-left: 7px;
     }
+
     .banner form {
         flex-direction: column;
         justify-content: space-evenly;
     }
+
     .banner form input {
         margin: 0.5556rem 0;
     }
@@ -445,11 +462,13 @@ footer {
     .card {
         width: 90%;
     }
+
     footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .footer--social-links {
         margin: 1.3889rem 0;
     }
