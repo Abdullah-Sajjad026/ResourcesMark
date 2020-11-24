@@ -298,7 +298,13 @@ main article {
     width: 4rem;
     height: 4rem;
 }
-
+.card .icon-box img {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
 .card h3 {
     margin: 1.3rem 0 .9rem 0;
     font-weight: 400;
