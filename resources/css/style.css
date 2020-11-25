@@ -52,7 +52,7 @@ img {
     right: 0.7222rem;
     width: 2.31rem;
     height: 2.31rem;
-    background-color: #e3e3e3;
+    background-color:#4769DC;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -64,7 +64,7 @@ img {
 }
 
 .top-btn ion-icon {
-    color: #1E15FF;
+    color: white;
     font-size: 1.467rem;
     transition: all .3s;
     -webkit-transition: all .3s;
