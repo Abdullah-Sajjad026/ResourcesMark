@@ -103,7 +103,7 @@ section.banner {
 .banner .content h1 {
     color: #f5f6fa;
     font-size: 3rem;
-    margin-bottom: 10.0008px;
+    margin-bottom: 0.6667rem;
 }
 
 .banner .content h3 {
@@ -113,8 +113,8 @@ section.banner {
 }
 
 .banner form {
-    margin-top: 2.5rem;
-    background-color: #fff;
+    margin-top: 2.9rem;
+    background-color: rgba(255,255,255,0.2);
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -138,7 +138,7 @@ section.banner {
     -o-border-radius: 9px;
     border: 1px solid transparent;
     font-weight: 300;
-    margin-right: 0.1667rem;
+    margin-right: 0.45rem;
 }
 
 .banner form input:focus {
@@ -166,6 +166,7 @@ section.banner {
     -moz-transition: all .3s;
     -ms-transition: all .3s;
     -o-transition: all .3s;
+    margin-top: .2rem;
 }
 
 .banner form button:hover {
