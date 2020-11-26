@@ -7,10 +7,11 @@
 :root {
     font-size: 18px;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Lato', sans-serif;
-    scroll-behavior: smooth;
 }
 
 section {
