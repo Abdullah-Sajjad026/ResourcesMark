@@ -297,8 +297,8 @@ main article {
 }
 
 .card .icon-box {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 .card .icon-box img {
     border-radius: 10%;
@@ -308,7 +308,7 @@ main article {
     -o-border-radius: 10%;
 }
 .card h3 {
-    margin: 1.3rem 0 .9rem 0;
+    margin: 1.2rem 0 .9rem 0;
     font-weight: 400;
     font-size: 1.3rem;
     color: #090909;
