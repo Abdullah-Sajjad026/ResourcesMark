@@ -7,9 +7,11 @@
 :root {
     font-size: 18px;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -54,7 +56,7 @@ img {
     right: 0.7222rem;
     width: 2.31rem;
     height: 2.31rem;
-    background-color:#4769DC;
+    background-color: #4769DC;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -115,7 +117,7 @@ section.banner {
 
 .banner form {
     margin-top: 2.9rem;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -144,8 +146,9 @@ section.banner {
 
 .banner form input:focus {
     outline: none;
-    border: 1px solid  #4869DB;
+    border: 1px solid #4869DB;
 }
+
 .banner form button {
     background-color: #4869DB;
     color: white;
@@ -300,6 +303,7 @@ main article {
     width: 3.5rem;
     height: 3.5rem;
 }
+
 .card .icon-box img {
     border-radius: 10%;
     -webkit-border-radius: 10%;
@@ -307,6 +311,7 @@ main article {
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
 }
+
 .card h3 {
     margin: 1.2rem 0 .9rem 0;
     font-weight: 400;
@@ -371,8 +376,11 @@ main article {
 
 /* ------- FOOTER--------- */
 footer {
-    padding: 0.833rem 0;
+    padding: 1rem 0;
     background-color: #fbfbfb;
+}
+
+.footer-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -380,6 +388,12 @@ footer {
 
 .footer--text {
     color: #3d3d3d;
+}
+
+.footer-desc {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: .8rem;
 }
 
 .footer-link {
@@ -395,9 +409,13 @@ footer {
     color: #1E15FF;
 }
 
+.footer--social-links a {
+    text-decoration: none;
+}
+
 .footer--social-links ion-icon {
     color: #090909;
-    font-size: 1.1667rem;
+    font-size: 2rem;
     margin-right: 0.5556rem;
     transition: color .2s;
     -webkit-transition: color .2s;
@@ -441,6 +459,7 @@ footer {
     :root {
         font-size: 16.5px;
     }
+
     .card {
         width: 42%;
         margin-right: 10px;
@@ -463,6 +482,21 @@ footer {
     .banner form input {
         margin: 0.5556rem 0;
     }
+
+
+}
+
+@media (max-width: 700px) {
+
+    .footer-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer--social-links {
+        margin: 1.3889rem 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -474,16 +508,6 @@ footer {
 @media (max-width: 550px) {
     .card {
         width: 90%;
-    }
-
-    footer {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer--social-links {
-        margin: 1.3889rem 0;
     }
 }
 
