@@ -1530,7 +1530,7 @@ const data = [
         category: "tools",
     },
     {
-        icon: "/resources/icons/brackets.jpg",
+        icon: "brackets.jpg",
         name: "Brackets",
         description: `Yet Another Code Editor. <br /><br /><br />`,
         link: "https://brackets.io/",
@@ -2037,11 +2037,1131 @@ const data = [
         category: "inspiration",
     },
     {
-        icon: "",
-        name: "",
-        description: ``,
-        link: "",
+        icon: "glitch.jpg",
+        name: "Glitch",
+        description: `
+        Glitch is a friendly community that offers
+        free tools to create and use apps. Their
+        code editor allows for seamless
+        collaboration on projects and can connect to
+        the dev tools you already use.
+    `,
+        link: "https://glitch.com/",
         category: "inspiration",
+    },
+    {
+        icon: "pinterest.png",
+        name: "Pinterest",
+        description: `
+        Pinterest can also serve as a Design
+        Inspiration platform. There are many great
+        design boards on Pinterest.
+    `,
+        link: "https://www.pinterest.com",
+        category: "inspiration",
+    },
+    {
+        icon: "unsplash.png",
+        name: "Unsplash",
+        description: `
+        My go-to site if I need to find images.
+        Unsplash has an unbelievable gallery of
+        royalty-free, high-resolution images for you
+        to use.
+    `,
+        link: "https://unsplash.com/",
+        category: "graphics",
+    },
+    {
+        icon: "thestocks.png",
+        name: "The Stocks",
+        description: `
+        The best royalty free stock photos from
+        multiple resources, all in one place.
+    `,
+        link: "http://thestocks.im/",
+        category: "graphics",
+    },
+    {
+        icon: "pixaby.png",
+        name: "Pixabay",
+        description: `
+        Pixabay is another amazing resource for
+        royalty-free images, videos, illustrations
+        and vector graphics.
+    `,
+        link: "https://pixabay.com/",
+        category: "graphics",
+    },
+    {
+        icon: "pexels.png",
+        name: "Pexels",
+        description: `
+        A huge gallery of high-resolution,
+        royalty-free images for you to choose from.
+    `,
+        link: "https://www.pexels.com/",
+        category: "graphics",
+    },
+    {
+        icon: "pexels.png",
+        name: "Pexels Videos",
+        description: `
+        If it's royalty-free videos you're after,
+        then Pexels Videos is an amazing resource
+        with a huge library.
+    `,
+        link: "https://videos.pexels.com/",
+        category: "graphics",
+    },
+    {
+        icon: "coverr.png",
+        name: "Coverr",
+        description: `
+        7 new high-quality, beautiful videos every
+        Monday. Amazing library of videos to choose
+        from.
+    `,
+        link: "http://www.coverr.co/",
+        category: "graphics",
+    },
+    {
+        icon: "tinypng.jpg",
+        name: "TinyPNG",
+        description: `
+        Make your website faster and save bandwidth.
+        TinyPNG optimizes your PNG images by 50-80%
+        while preserving full transparency!
+    `,
+        link: "https://tinypng.com/",
+        category: "graphics",
+    },
+    {
+        icon: "svgomg.png",
+        name: "SVGOMG",
+        description: `
+        SVGOMG is the missing GUI for SVGO. If you
+        have SVGs on your site and you need to
+        optimize them, then this is the tool for
+        you.
+    `,
+        link: "https://jakearchibald.github.io/svgomg/",
+        category: "graphics",
+    },
+    {
+        icon: "undraw.png",
+        name: "unDraw",
+        description: `
+        unDraw is an incredible collection of
+        beautiful illustrations. All illustrations
+        are available under the MIT License, so
+        you're free to use them any way you like.
+    `,
+        link: "https://undraw.co/",
+        category: "graphics",
+    },
+    {
+        icon: "drawkit.png",
+        name: "DrawKit",
+        description: `
+        DrawKit is a collection of free, beautiful,
+        and customizable SVG illustrations. All the
+        free illustrations are available under the
+        MIT License, so you're able to use them any
+        way you like.
+    `,
+        link: "https://www.drawkit.io/",
+        category: "graphics",
+    },
+    {
+        icon: "humaaans.png",
+        name: "humaaans",
+        description: `
+        This library of mix-and-match illustrations
+        of people is a great resource to add some
+        stylish imagery to your website.
+    `,
+        link: "https://www.humaaans.com/",
+        category: "graphics",
+    },
+    {
+        icon: "ouch.png",
+        name: "Ouch!",
+        description: `
+        Ouch! offers a library of beautiful vector
+        illustrations in a range of styles. Perfect
+        for when you're looking to add some extra
+        style to your website.
+    `,
+        link: "https://icons8.com/ouch",
+        category: "graphics",
+    },
+    {
+        icon: "coolbackgroundsio.jpg",
+        name: "Cool Backgrounds",
+        description: `
+        Cool Backgrounds offers a selection of
+        beautiful, enticing image backgrounds to add
+        to your blog post, website, or wallpaper.
+    `,
+        link: "https://coolbackgrounds.io/",
+        category: "graphics",
+    },
+    {
+        icon: "getwaves.jpg",
+        name: "Get Waves",
+        description: `
+        Get Waves is a simple web app to generate
+        SVG waves, which you can then use in your
+        projects.
+    `,
+        link: "https://getwaves.io/",
+        category: "graphics",
+    },
+    {
+        icon: "blobmaker.jpg",
+        name: "Blobmaker",
+        description: `
+        Easily create random, unique, and
+        organic-looking SVG shapes to use in your
+        websites.
+    `,
+        link: "https://www.blobmaker.app/",
+        category: "graphics",
+    },
+    {
+        icon: "blobs.png",
+        name: "Blobs",
+        description: `
+        Blobs helps you generate beautiful blob
+        shapes for web and flutter apps.
+    `,
+        link: "https://blobs.app/",
+        category: "graphics",
+    },
+    {
+        icon: "subtlepatterns.png",
+        name: "Subtle Patterns",
+        description: `
+        High quality resource of tilable textured
+        patterns, completely free to use.
+    `,
+        link: "http://subtlepatterns.com/",
+        category: "graphics",
+    },
+    {
+        icon: "randomuser.png",
+        name: "Random User Generator",
+        description: `
+        Generate random user data, including photos.
+        Like Lorem Ipsum, but for people.
+    `,
+        link: "https://randomuser.me/",
+        category: "graphics",
+    },
+    {
+        icon: "startupstock.png",
+        name: "Startup Stock Photos",
+        description: `
+        Lots of great pictures of startup offices,
+        people, devices and more. I love it.
+    `,
+        link: "http://startupstockphotos.com/",
+        category: "graphics",
+    },
+    {
+        icon: "canva.png",
+        name: "Canva",
+        description: `
+        Easily create beautiful designs with
+        drag-and-drop features and professional
+        layouts.
+    `,
+        link: "https://www.canva.com/",
+        category: "graphics",
+    },
+    {
+        icon: "pinetools.png",
+        name: "PineTools",
+        description: `Free Online Tools For Every Situation.`,
+        link: "https://www.pinetools.com/",
+        category: "graphics",
+    },
+    {
+        icon: "100dailyui.jpg",
+        name: "100 Daily UI Free",
+        description: `
+        100 Daily UI Challenge is a free Figma
+        library of elements and screens. You can
+        customize all of them by changing colors,
+        shapes, or elements. You can create some
+        pretty awesome UI designs and create better
+        products.
+    `,
+        link: "https://100dailyui.webflow.io/",
+        category: "graphics",
+    },
+    {
+        icon: "icons8.png",
+        name: "Icons 8",
+        description: `
+        Icons 8 helps creators who don’t draw
+        overcome the lack of quality graphics.
+        Download the free PNG and SVG illustrations
+        from top Dribbble artists to class up your
+        product.
+    `,
+        link: "http://icons8.com/illustrations",
+        category: "graphics",
+    },
+    {
+        icon: "invision.png",
+        name: "Invision App",
+        description: `
+        Invision app is the digital product design
+        platform powering the world’s best user
+        experiences. With intuitive tools for
+        ideation, design, prototyping, and design
+        management, the InVision platform gives you
+        everything you need for digital product
+        design, all in one place.
+    `,
+        link: "https://www.invisionapp.com/inside-design/design-resources/",
+        category: "graphics",
+    },
+    {
+        icon: "uplabs.jpg",
+        name: "Uplabs",
+        description: `
+        UpLabs is a website for designers and
+        developers to find and share resources to
+        build apps and sites.
+    `,
+        link: "https://www.uplabs.com/",
+        category: "graphics",
+    },
+    {
+        icon: "paaatterns.png",
+        name: "Paaatterns",
+        description: `
+        Use Paaatterns together with a powerful
+        design system and speed up your workflow.
+    `,
+        link: "https://products.ls.graphics/paaatterns/",
+        category: "graphics",
+    },
+    {
+        icon: "avataaars.jpg",
+        name: "Avataaars",
+        description: `
+        Create avatar illustrations in Sketch App
+        with this free library. Combine clothes,
+        hair, emotions, accessories, and colors.
+    `,
+        link: "https://avataaars.com/",
+        category: "graphics",
+    },
+    {
+        icon: "patterncss.jpg",
+        name: "pattern.css",
+        description: `
+        CSS only library to fill your empty
+        background with beautiful patterns.
+    `,
+        link: "https://bansal.io/pattern-css",
+        category: "graphics",
+    },
+    {
+        icon: "blush.jpg",
+        name: "Blush",
+        description: `
+        Blush is a tool that brings illustrations to
+        everyone from artists around the world. The
+        best thing is that you can customize every
+        piece of an illustration to create your own
+        compositions.
+    `,
+        link: "https://blush.design/",
+        category: "graphics",
+    },
+    {
+        icon: "iradesign.png",
+        name: "IRA Design",
+        description: `
+        IRA comes with a great variety of
+        ready-to-use features, gradients, and
+        components. You can use the samples as they
+        are or you can add a new block from the UI
+        Kit.
+    `,
+        link: "https://iradesign.io/",
+        category: "graphics",
+    },
+    {
+        icon: "uidesigndaily.jpg",
+        name: "UI Design Daily",
+        description: `
+        UI Daily Design is a source where designers
+        can get thousands of UI resources (i.e. XD,
+        Sketch, Figma, etc.) for free. It is updated
+        daily so that you never miss the best one
+        you need.
+    `,
+        link: "https://uidesigndaily.com/",
+        category: "graphics",
+    },
+    {
+        icon: "uispace.jpg",
+        name: "UI Space",
+        description: `
+        High quality hand-crafted Free Sketch files,
+        PSDs and AI freebies, free fonts, mockups,
+        the latest free icons sets and other free
+        vectorial resources.
+    `,
+        link: "https://uispace.net/",
+        category: "graphics",
+    },
+    {
+        icon: "opendoodles.png",
+        name: "Open Doodles",
+        description: `
+        Open Doodles is a set of free illustrations
+        that embraces the idea of Open Design. You
+        can copy, edit, remix, share, or redraw
+        these images for any purpose without
+        restriction under copyright or database law.
+    `,
+        link: "https://www.opendoodles.com/",
+        category: "graphics",
+    },
+    {
+        icon: "openpeeps.png",
+        name: "Open Peeps",
+        description: `
+        Open Peeps is a hand-drawn illustration
+        library to create scenes of people. You can
+        use them in product illustration, marketing,
+        comics, product states, user flows,
+        personas, storyboarding, quinceañera
+        invitations, or whatever you want.
+    `,
+        link: "https://www.openpeeps.com/",
+        category: "graphics",
+    },
+    {
+        icon: "lukaszadam.jpg",
+        name: "Free Illustrations",
+        description: `
+        This is a library of Free Illustrations and
+        Icons for everyone. You can use them for
+        anything you like. It is free for commercial
+        and personal use.
+    `,
+        link: "https://lukaszadam.com/illustrations",
+        category: "graphics",
+    },
+    {
+        icon: "handz.jpg",
+        name: "handz.design",
+        description: `
+        This is free 3D hands gestures library for
+        any occasion.
+    `,
+        link: "https://www.handz.design/",
+        category: "graphics",
+    },
+    {
+        icon: "coolors.png",
+        name: "Coolors",
+        description: `
+        Struggling for inspiration when creating a
+        color palette? No worries, Coolors offers a
+        helping hand with their auto-generator.
+    `,
+        link: "https://coolors.co/",
+        category: "colors",
+    },
+    {
+        icon: "color-space-logo.png",
+        name: "ColorSpace Palette",
+        description: `
+        ColorSpace offers a great way of creating
+        beautiful palettes based around a single
+        color. Add your primary color and ColorSpace
+        will generate some palettes to compliment
+        it.
+    `,
+        link: "https://mycolor.space/",
+        category: "colors",
+    },
+    {
+        icon: "cssgradientcolors.svg",
+        name: "CSS Gradient",
+        description: `
+        Another brilliant gradient generator for you
+        to play around with. CSS Gradient is also an
+        excellent resource if you want to learn more
+        about the different types of gradient
+        available to you.
+    `,
+        link: "https://cssgradient.io/",
+        category: "colors",
+    },
+    {
+        icon: "colormind.svg",
+        name: "Colormind",
+        description: `
+        Colormind is an amazing resource for
+        generating color palettes. You can even feed
+        it a picture and it will create a color
+        palette from that.
+    `,
+        link: "http://colormind.io/",
+        category: "colors",
+    },
+    {
+        icon: "colorbox.svg",
+        name: "ColorBox",
+        description: `
+        ColorBox is an amazing tool, open sourced by
+        Lyft, that helps create accessible color
+        systems. The GUI allows you to tweak your
+        requirements as much as you like. It's a
+        seriously powerful tool!
+    `,
+        link: "https://www.colorbox.io/",
+        category: "colors",
+    },
+    {
+        icon: "color-space-logo.png",
+        name: "ColorSpace Gradient",
+        description: `
+        Another great tool from ColorSpace, but this
+        time to help create CSS gradients.
+    `,
+        link: "",
+        category: "colors",
+    },
+    {
+        icon: "colorinspo.svg",
+        name: "Colorsinspo",
+        description: `
+        Colorsinspo is all in one resource to find
+        everything about colors with extreme ease.
+    `,
+        link: "https://colorsinspo.com/",
+        category: "colors",
+    },
+    {
+        icon: "flatuicolors.png",
+        name: "Flat UI Colors",
+        description: `
+        A good starting point for choosing a flat
+        design color for your next project.
+    `,
+        link: "http://flatuicolors.com/",
+        category: "colors",
+    },
+    {
+        icon: "materialpalette.jpg",
+        name: "Material Palette",
+        description: `
+        Another great set of colors, inspired in
+        material design. Generate and download your
+        palette.
+    `,
+        link: "http://www.materialpalette.com/",
+        category: "colors",
+    },
+    {
+        icon: "colorhunt.gif",
+        name: "Colorhunt Palettes",
+        description: `
+        Don't know what colors to use for your
+        website? Colorhunt helps you with beautiful
+        color palettes.
+    `,
+        link: "http://www.colorhunt.co/",
+        category: "colors",
+    },
+    {
+        icon: "lolcolors.svg",
+        name: "LOL Colors Palettes",
+        description: `
+        Curated color palettes inspiration. Another
+        source for great color palettes.
+    `,
+        link: "http://www.lolcolors.com/",
+        category: "colors",
+    },
+    {
+        icon: "uigradients.png",
+        name: "UI Gradients",
+        description: `
+        Collection of beautiful color gradients for
+        you to choose from and export to your
+        project.
+    `,
+        link: "http://uigradients.com/",
+        category: "colors",
+    },
+    {
+        icon: "paletton.png",
+        name: "Paletton",
+        description: `
+        A very popular tool which allows you to
+        create color combinations that play well
+        together.
+    `,
+        link: "http://paletton.com/",
+        category: "colors",
+    },
+    {
+        icon: "0to255.png",
+        name: "0to255",
+        description: `
+        A simple tool that helps you find variations
+        of any color. Perfect for hovers, borders
+        and gradients.
+    `,
+        link: "http://www.0to255.com/",
+        category: "colors",
+    },
+    {
+        icon: "coleure.png",
+        name: "Coleure",
+        description: `
+        Color management app that allows you to
+        choose, mix and edit great colors.
+    `,
+        link: "https://www.coleure.com/",
+        category: "colors",
+    },
+    {
+        icon: "colortemplate.png",
+        name: "Learn about colors",
+        description: `
+        If you want to learn about colors, this is
+        the #1 resource to go.
+    `,
+        link: "http://www.rocket-design.fr/color-template/",
+        category: "colors",
+    },
+    {
+        icon: "googlefonts.png",
+        name: "Google Fonts",
+        description: `
+        The best resource for free web
+        fonts. It offers a huge font library for you
+        to choose from.
+    `,
+        link: "https://fonts.google.com/",
+        category: "typography",
+    },
+    {
+        icon: "fontsquirrel.jpg",
+        name: "Font Squirrel",
+        description: `
+        Font Squirrel is another brilliant resource
+        for free web fonts. The site also offers
+        other tools, such as a font generator.
+    `,
+        link: "https://www.fontsquirrel.com/",
+        category: "typography",
+    },
+    {
+        icon: "typetester.png",
+        name: "Type Tester",
+        description: `
+        Web application for testing and comparing
+        more than 2200 typefaces.
+    `,
+        link: "https://www.typetester.org/",
+        category: "typography",
+    },
+    {
+        icon: "wordmark.png",
+        name: "Wordmark.it",
+        description: `
+        Not sure what font to use for your next
+        project? Type in a word or phrase on
+        Wordmark.it and scroll through a huge
+        library of fonts to compare.
+    `,
+        link: "https://wordmark.it/",
+        category: "typography",
+    },
+    {
+        icon: "creativebloq.jpg",
+        name: "The 100 best free fonts by Creative Bloq",
+        description: `
+        List of free fonts, from vintage-inspired
+        typefaces to slab serifs, for a range of
+        projects.
+    `,
+        link: "http://www.creativebloq.com/graphic-design-tips/best-free-fonts-for-designers-1233380",
+        category: "typography",
+    },
+    {
+        icon: "pocketguide.svg",
+        name: "A Pocket Guide to Typography",
+        description: `
+        Amazing resource to learn about typography.
+        Learn typography basics in less than 30
+        minutes.
+    `,
+        link: "http://www.typogui.de/",
+        category: "typography",
+    },
+    {
+        icon: "fontpair.png",
+        name: "FontPair",
+        description: `
+        Font Pair helps designers pair Google Fonts
+        together. Beautiful Google Font combinations
+        and pairs.
+    `,
+        link: "https://fontpair.co/",
+        category: "typography",
+    },
+    {
+        icon: "fontjoy.jpeg",
+        name: "Fontjoy",
+        description: `
+        Fontjoy helps designers choose the best font
+        combinations. Mix and match different fonts
+        for the perfect pairing.
+    `,
+        link: "https://fontjoy.com/",
+        category: "typography",
+    },
+    {
+        icon: "fontawesome.png",
+        name: "Font Awesome",
+        description: `
+        A very popular font icon library with vector
+        icons and social logos. Plenty for you to
+        choose from.
+    `,
+        link: "https://fontawesome.com/",
+        category: "icons",
+    },
+    {
+        icon: "devicons.png",
+        name: "Devicon",
+        description: `
+        If you need coding-related vector icons then
+        Devicon has you covered. It offers a large
+        number of programming languages, design and
+        development tool icons.
+    `,
+        link: "https://konpa.github.io/devicon/",
+        category: "icons",
+    },
+    {
+        icon: "materialiconsio.png",
+        name: "Material Icons",
+        description: `
+        If you're building a site using Material
+        Design then Material Icons is a great font
+        icon library for you.
+    `,
+        link: "https://material.io/tools/icons/?style=baseline",
+        category: "icons",
+    },
+    {
+        icon: "ionicons.png",
+        name: "Ionicons",
+        description: `
+        Ionicons is an amazing and 100% free font
+        icon library with some beautiful icons.
+    `,
+        link: "https://ionicons.com/",
+        category: "icons",
+    },
+    {
+        icon: "flaticon.png",
+        name: "Flaticon",
+        description: `
+        Flaticon is an enormous database of free and
+        premium font icon collections.
+    `,
+        link: "https://www.flaticon.com/",
+        category: "icons",
+    },
+    {
+        icon: "iconmonstr.png",
+        name: "Iconmonstr",
+        description: `
+        A smaller, but seriously cool library of
+        icons.
+    `,
+        link: "https://iconmonstr.com/",
+        category: "icons",
+    },
+    {
+        icon: "vivid-logo.svg",
+        name: "Vivid.js",
+        description: `
+        A beautiful and customizable library of SVG
+        icons. Pick your colors and away you go.
+    `,
+        link: "https://webkul.github.io/vivid/",
+        category: "icons",
+    },
+    {
+        icon: "iconshock.jpg",
+        name: "Gradientify SVG Icons",
+        description: `
+        A useful resource from Iconshock providing
+        an interactive free SVG icon pack made
+        especially for gradient lovers.
+    `,
+        link: "https://www.iconshock.com/svg-icons/",
+        category: "icons",
+    },
+    {
+        icon: "fontastic.png",
+        name: "Fontastic",
+        description: `
+        Create a customized icon font from your
+        icons. Choose from 9000 icons or import your
+        own.
+    `,
+        link: "http://fontastic.me/",
+        category: "icons",
+    },
+    {
+        icon: "freeiconsio.jpg",
+        name: "Freeicons",
+        description: `
+        Freeicons is a free platform for download
+        vector icons in SVG, PNG, EPS, AI and PSD
+        format.
+    `,
+        link: "https://www.freeicons.io",
+        category: "icons",
+    },
+    {
+        icon: "thenounproject.png",
+        name: "Noun Project",
+        description: `
+        Noun Project features the most diverse
+        collection of icons and stock photos ever.
+        Download SVG and PNG. Browse over 3 million
+        art-quality icons and photos.
+    `,
+        link: "https://thenounproject.com/",
+        category: "icons",
+    },
+    {
+        icon: "orion.jpg",
+        name: "Orion",
+        description: `
+        Line, Solid, Color & Flat icons with a
+        precise and unified style. Adapts to any
+        type of project with different stroke
+        weights, color control and great legibility.
+    `,
+        link: "https://orioniconlibrary.com/",
+        category: "icons",
+    },
+    {
+        icon: "streamlineicons.png",
+        name: "Streamline Icons",
+        description: `
+        Over 10,500 in three different weights. 53
+        categories, 720 sub categories, and over
+        30,000 something in total.
+    `,
+        link: "https://streamlineicons.com/",
+        category: "icons",
+    },
+    {
+        icon: "iconscout.png",
+        name: "Iconscout",
+        description: `
+        Iconscout is a collection of millions of
+        different icons, in every possible category
+        you can just imagine
+    `,
+        link: "https://iconscout.com/",
+        category: "icons",
+    },
+    {
+        icon: "nucleoapp.png",
+        name: "Nucleo",
+        description: `
+        Nucleo is a beautiful library of 30635
+        icons, and a powerful application to
+        collect, customize and export all your
+        icons.
+    `,
+        link: "https://nucleoapp.com/",
+        category: "icons",
+    },
+    {
+        icon: "openiconic.png",
+        name: "OpenIconic",
+        description: `
+        An open source icon set with 223 marks in
+        SVG, webfont and raster formats
+    `,
+        link: "https://useiconic.com/open",
+        category: "icons",
+    },
+    {
+        icon: "vercel.png",
+        name: "Vercel",
+        description: `
+        Vercel is an amazing hosting service for
+        static & JAMstack sites. It's super simple
+        to set up. Connect your GitHub, GitLab or
+        Bitbucket, point to a repo and your site
+        will be deployed.
+    `,
+        link: "https://bit.ly/fem-vercel",
+        category: "deployment",
+    },
+    {
+        icon: "heroku.png",
+        name: "Heroku",
+        description: `
+        Heroku makes it easy to deploy apps with
+        very little configuration required.
+    `,
+        link: "https://www.heroku.com/",
+        category: "deployment",
+    },
+    {
+        icon: "netlify.png",
+        name: "Netlify",
+        description: `
+        Build, test, and deploy globally with
+        Netlify’s all-in-one platform for modern web
+        projects.
+    `,
+        link: "https://www.netlify.com/",
+        category: "deployment",
+    },
+    {
+        icon: "lambdatest.jpg",
+        name: "LambdaTest",
+        description: `
+        LambdaTest is an awesome cross-browser
+        testing tool. They have a free tier, which
+        is a great way to get started with the
+        service. Cross-browser testing is a crucial
+        part of a professional workflow.
+    `,
+        link: "http://www.lambdatest.com/?fp_ref=frontendmentor",
+        category: "deployment",
+    },
+    {
+        icon: "w3chtml.png",
+        name: "W3C HTML Validator",
+        description: `
+        It's always good to know if you have errors
+        in your HTML. Use this official W3C tool to
+        make sure your markup is valid.
+    `,
+        link: "https://validator.w3.org/",
+        category: "deployment",
+    },
+    {
+        icon: "w3chtml.png",
+        name: "W3C CSS Validator",
+        description: `
+        Be sure your CSS code contains no errors
+        with this official W3C code validator.
+    `,
+        link: "https://jigsaw.w3.org/css-validator/",
+        category: "deployment",
+    },
+    {
+        icon: "lighthouse.jpg",
+        name: "Lighthouse",
+        description: `
+        Lighthouse is an open-source, automated tool
+        for improving the quality of web pages. It
+        has audits for performance, accessibility,
+        progressive web apps, and more.
+    `,
+        link: "https://developers.google.com/web/tools/lighthouse/",
+        category: "deployment",
+    },
+    {
+        icon: "seoptimer.png",
+        name: "SEOptimer",
+        description: `
+        Get detailed (and free!) insights on how
+        your website stacks up for Search Engine
+        Optimization.
+    `,
+        link: "https://www.seoptimer.com/",
+        category: "deployment",
+    },
+    {
+        icon: "frontendchecklist.png",
+        name: "Front-End Checklist",
+        description: `
+        Don't launch a site without running through
+        this front-end checklist. It's a crucial
+        resource to make sure you've checked all the
+        necessary boxes before deployment.
+    `,
+        link: "https://frontendchecklist.io/",
+        category: "deployment",
+    },
+    {
+        icon: "nibbler.png",
+        name: "Nibbler",
+        description: `
+        Receive a free report on some important
+        areas of your site. See how your site scores
+        for SEO, accessibility and social media.
+    `,
+        link: "http://nibbler.silktide.com/",
+        category: "deployment",
+    },
+    {
+        icon: "googlepagespeed.jpg",
+        name: "Google Pagespeed",
+        description: `
+        Test key speed metrics for your site and
+        receive a detailed breakdown of what needs
+        fixing and how you can fix it.
+    `,
+        link: "https://developers.google.com/speed/pagespeed/insights/",
+        category: "deployment",
+    },
+    {
+        icon: "googlemobilespeedtest.png",
+        name: "Google Mobile Speed Test",
+        description: `
+        See how your site performs on mobile devices
+        and how it stacks up against other sites.
+    `,
+        link: "https://testmysite.withgoogle.com/",
+        category: "deployment",
+    },
+    {
+        icon: "vavry.png",
+        name: "Varvy",
+        description: `
+        Varvy is a very helpful reporting tool that
+        offers SEO, speed and mobile reports.
+    `,
+        link: "https://varvy.com/",
+        category: "deployment",
+    },
+    {
+        icon: "realfavicongen.png",
+        name: "Real Favicon Generator",
+        description: `
+        Generate all the favicon assets and HTML
+        code you need to include favicons for all
+        platforms.
+    `,
+        link: "https://realfavicongenerator.net/",
+        category: "deployment",
+    },
+    {
+        icon: "pingdom.png",
+        name: "Pingdom",
+        description: `
+        Receive a detailed report of your website's
+        performance. The report includes prioritized
+        tasks for how you can improve.
+    `,
+        link: "https://tools.pingdom.com/",
+        category: "deployment",
+    },
+    {
+        icon: "htmlcsssecuritychecklist.png",
+        name: "HTML & CSS Security Checklist",
+        description: `
+        If you thought HTML & CSS weren't vulnerable
+        to malicious attacks you'd be wrong! This is
+        a very useful checklist to help you avoid
+        potential vulnerabilities.
+    `,
+        link: "https://www.sqreen.io/checklists/html-css-security-checklist",
+        category: "deployment",
+    },
+    {
+        icon: "frontendperformancechecklist.jpg",
+        name: "Front-End Performance Checklist",
+        description: `
+        Another crucial checklist to go through is
+        your performance checklist. If your site
+        takes ages to load you'll have a hard time
+        getting users to stick around.
+    `,
+        link: "https://github.com/thedaviddias/Front-End-Performance-Checklist",
+        category: "deployment",
+    },
+    {
+        icon: "yellowlabtools.png",
+        name: "Yellow Lab Tools",
+        description: `
+        Yellow Lab Tools run an audit on your HTML,
+        CSS and JS. It also runs performance tests
+        to make sure you're sticking to the best
+        practices.
+    `,
+        link: "https://yellowlab.tools/",
+        category: "deployment",
+    },
+    {
+        icon: "uptimerobot.png",
+        name: "Uptime Robot",
+        description: `
+        Uptime Robot is an invaluable tool for
+        monitoring your site. Setup monitors to ping
+        your website every 5 minutes for the free
+        plan or every minute for the paid plan. Get
+        sent an email straight away if your site is
+        down when it gets pinged.
+    `,
+        link: "https://uptimerobot.com/",
+        category: "deployment",
+    },
+    {
+        icon: "wavewebaim.svg",
+        name: "Wave",
+        description: `
+        Wave is an extremely valuable accessibility
+        evaluation tool. Run your site through it to
+        get a detailed report on what changes you
+        need to make to improve how accessible it
+        is.
+    `,
+        link: "http://wave.webaim.org/",
+        category: "deployment",
+    },
+    {
+        icon: "responsively.svg",
+        name: "Responsively App",
+        description: `
+        A dev-tool that aids faster and precise
+        responsive web development.
+    `,
+        link: "https://responsively.app",
+        category: "deployment",
+    },
+    {
+        icon: "basin.png",
+        name: "Basin",
+        description: `
+        An easy-to-configure form backend for static
+        HTML sites, Wordpress, or any website.
+        Trigger branded emails sent from your own
+        domain.
+    `,
+        link: "https://usebasin.com/",
+        category: "deployment",
     },
 ];
 
