@@ -1,9 +1,11 @@
+import {IoArrowUpCircleOutline} from "react-icons/io5";
+
 const Banner = () => {
     return (
         <section className="banner">
             <a href="#category-nav">
                 <div className="top-btn">
-                    <ion-icon name="arrow-up-circle-outline"></ion-icon>
+                    <IoArrowUpCircleOutline />
                 </div>
             </a>
             <div className="content">

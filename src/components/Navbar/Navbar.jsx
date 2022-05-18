@@ -1,99 +1,210 @@
+import {
+    IoBulbOutline,
+    IoShapesOutline,
+    IoLogoYoutube,
+    IoDocumentsOutline,
+    IoInformationOutline,
+    IoChatbubblesOutline,
+    IoTerminalOutline,
+    IoLogoCss3,
+    IoCodeSlashOutline,
+    IoImagesOutline,
+    IoColorPaletteOutline,
+    IoPaperPlaneOutline,
+    IoDocumentTextOutline,
+    IoCloudUploadOutline,
+    IoBookOutline,
+} from "react-icons/io5";
+
+import {useContext, useEffect} from "react";
+import {CategoryContext} from "../../App";
+
 const Navbar = () => {
+    const [category, setCategory] = useContext(CategoryContext);
+
+    const clickHandler = (e) => {
+        setCategory(e.target.attributes["data-category"].value);
+    };
+
+    useEffect(() => {
+        const allBtns = document.querySelectorAll(`button.group-nav-link`);
+        allBtns.forEach((btn) => {
+            if (btn.getAttribute("data-category") === category)
+                btn.classList.add("active-category");
+            else btn.className = "group-nav-link";
+        });
+    }, [category]);
+
     return (
-        <nav class="group-nav" id="category-nav">
+        <nav className="group-nav" id="category-nav">
             <ul>
-                <li>
-                    <a href="#all" class="group-nav-link">
+                {/* <li>
+                    <button
+                        onClick={clickHandler}
+                        data-category=""
+                        className="group-nav-link"
+                    >
                         <ion-icon name="bulb-outline"></ion-icon>All
-                    </a>
+                    </button>
+                </li> */}
+                <li>
+                    <button
+                        onClick={clickHandler}
+                        data-category="onlineCourses"
+                        className="group-nav-link"
+                    >
+                        <IoBulbOutline className="nav-icon" />
+                        Online Courses
+                    </button>
                 </li>
                 <li>
-                    <a href="#onlineCourses" class="group-nav-link">
-                        <ion-icon name="bulb-outline"></ion-icon>Online Courses
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="interactiveTutorials"
+                        className="group-nav-link"
+                    >
+                        <IoShapesOutline className="nav-icon" />
+                        Interactive Tutorials
+                    </button>
                 </li>
                 <li>
-                    <a href="#interactiveTutorials" class="group-nav-link">
-                        <ion-icon name="shapes-outline"></ion-icon>Interactive
-                        Tutorials
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="youtubeChannels"
+                        className="group-nav-link"
+                    >
+                        <IoLogoYoutube className="nav-icon" />
+                        Youtube Channels
+                    </button>
                 </li>
                 <li>
-                    <a href="#youtube" class="group-nav-link">
-                        <ion-icon name="logo-youtube"></ion-icon>Youtube
-                        Channels
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="reading"
+                        className="group-nav-link"
+                    >
+                        <IoBookOutline className="nav-icon" />
+                        Reading
+                    </button>
                 </li>
                 <li>
-                    <a href="#reading" class="group-nav-link">
-                        <ion-icon name="book-outline"></ion-icon>Reading
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="references"
+                        className="group-nav-link"
+                    >
+                        <IoDocumentsOutline className="nav-icon" />
+                        References - CheatSheets
+                    </button>
                 </li>
                 <li>
-                    <a href="#references" class="group-nav-link">
-                        <ion-icon name="documents-outline"></ion-icon>References
-                        - CheatSheets
-                    </a>
-                </li>
-                <li>
-                    <a href="#challenges" class="group-nav-link">
-                        <ion-icon name="information-outline"></ion-icon>
+                    <button
+                        onClick={clickHandler}
+                        data-category="challenges"
+                        className="group-nav-link"
+                    >
+                        <IoInformationOutline className="nav-icon" />
                         Problem-Solving - Challenges
-                    </a>
+                    </button>
                 </li>
                 <li>
-                    <a href="#communitis" class="group-nav-link">
-                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    <button
+                        onClick={clickHandler}
+                        data-category="communities"
+                        className="group-nav-link"
+                    >
+                        <IoChatbubblesOutline className="nav-icon" />
                         Communities - Blogs
-                    </a>
+                    </button>
                 </li>
                 <li>
-                    <a href="#tools" class="group-nav-link">
-                        <ion-icon name="terminal-outline"></ion-icon>Tools
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="tools"
+                        className="group-nav-link"
+                    >
+                        <IoTerminalOutline className="nav-icon" />
+                        Tools
+                    </button>
                 </li>
                 <li>
-                    <a href="#css" class="group-nav-link">
-                        <ion-icon name="logo-css3"></ion-icon>CSS
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="css"
+                        className="group-nav-link"
+                    >
+                        <IoLogoCss3 className="nav-icon" />
+                        CSS
+                    </button>
                 </li>
                 <li>
-                    <a href="#frameworks" class="group-nav-link">
-                        <ion-icon name="code-slash-outline"></ion-icon>
+                    <button
+                        onClick={clickHandler}
+                        data-category="frameworks"
+                        className="group-nav-link"
+                    >
+                        <IoCodeSlashOutline className="nav-icon" />
                         Frameworks - Libraries
-                    </a>
+                    </button>
                 </li>
                 <li>
-                    <a href="#inspiration" class="group-nav-link">
-                        <ion-icon name="bulb-outline"></ion-icon>Inspiration
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="inspiration"
+                        className="group-nav-link"
+                    >
+                        <IoBulbOutline className="nav-icon" />
+                        Inspiration
+                    </button>
                 </li>
                 <li>
-                    <a href="#graphics" class="group-nav-link">
-                        <ion-icon name="images-outline"></ion-icon>UI Graphics
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="graphics"
+                        className="group-nav-link"
+                    >
+                        <IoImagesOutline className="nav-icon" /> UI Graphics
+                    </button>
                 </li>
                 <li>
-                    <a href="#colors" class="group-nav-link">
-                        <ion-icon name="color-palette-outline"></ion-icon>Colors
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="colors"
+                        className="group-nav-link"
+                    >
+                        <IoColorPaletteOutline className="nav-icon" />
+                        Colors
+                    </button>
                 </li>
                 <li>
-                    <a href="#typography" class="group-nav-link">
-                        <ion-icon name="document-text-outline"></ion-icon>
+                    <button
+                        onClick={clickHandler}
+                        data-category="typography"
+                        className="group-nav-link"
+                    >
+                        <IoDocumentTextOutline className="nav-icon" />
                         Typography
-                    </a>
+                    </button>
                 </li>
                 <li>
-                    <a href="#icons" class="group-nav-link">
-                        <ion-icon name="paper-plane-outline"></ion-icon>Icons
-                    </a>
+                    <button
+                        onClick={clickHandler}
+                        data-category="icons"
+                        className="group-nav-link"
+                    >
+                        <IoPaperPlaneOutline className="nav-icon" />
+                        Icons
+                    </button>
                 </li>
                 <li>
-                    <a href="#deployment" class="group-nav-link">
-                        <ion-icon name="cloud-upload-outline"></ion-icon>
+                    <button
+                        onClick={clickHandler}
+                        data-category="deployment"
+                        className="group-nav-link"
+                    >
+                        <IoCloudUploadOutline className="nav-icon" />
                         Deployment - Testing
-                    </a>
+                    </button>
                 </li>
             </ul>
         </nav>
