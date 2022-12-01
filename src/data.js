@@ -2628,14 +2628,14 @@ const data = [
         link: "http://www.0to255.com/",
         category: "colors",
     },
-    {
-        icon: "coleure.png",
-        name: "Coleure",
+     {
+        icon: "https://branition.com/assets/img/svg/brandmark.svg",
+        name: "Branition Colors",
         description: `
-        Color management app that allows you to
-        choose, mix and edit great colors.
+        Hand-curated collection of color palettes 
+        best fitted for branding.
     `,
-        link: "https://www.coleure.com/",
+        link: "https://branition.com/colors",
         category: "colors",
     },
     {
