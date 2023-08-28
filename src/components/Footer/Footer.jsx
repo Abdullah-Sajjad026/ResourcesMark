@@ -5,9 +5,9 @@ const Footer = () => {
                 <div className="footer-flex">
                     <div className="footer--text">
                         <p>
-                            &copy; 2022. Designed and Developed with &hearts; by
+                            &copy; 2023. Designed and Developed with &hearts; by {" "}
                             <a
-                                href="https://abdullahwebdev.netlify.app/"
+                                href="https://abdullahsajjad.me/"
                                 className="footer-link"
                             >
                                 Abdullah Sajjad
